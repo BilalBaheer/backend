@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleSignUpClick = () => {
+    navigate('/login');
+  };
+
   return (
     <div className="hero">
       <div className="hero-content">
@@ -14,7 +21,7 @@ const Hero = () => {
           <p className="hero-description">
             Harness the power of AI to streamline your backend development process.
           </p>
-          <button className="hero-button">Watch Series</button>
+          <button className="hero-button" onClick={handleSignUpClick}>Sign Up</button>
         </div>
         <div className="hero-image-container">
           <div className="placeholder-image">

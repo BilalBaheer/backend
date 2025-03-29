@@ -1,0 +1,47 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #1a365d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.dashboard-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-content h1 {
+  color: #1a365d;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-content p {
+  margin-bottom: 1rem;
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.signout-button {
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.signout-button:hover {
+  background-color: #3182ce;
+}
